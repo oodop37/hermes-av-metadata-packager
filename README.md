@@ -2,6 +2,8 @@
 
 AV 视频元数据整理技能 —— 自动搜索元数据、下载横版封面、裁剪竖版海报、生成 Jellyfin 兼容 NFO，打包并移动到指定目录。
 
+本 skill 为 **Hermes Agent Skill**，兼容 **OpenClaw**。
+
 ## 功能
 
 - 🎯 自动识别视频番号，搜索元数据（女优、发行日、片商、时长、类别）
@@ -15,18 +17,26 @@ AV 视频元数据整理技能 —— 自动搜索元数据、下载横版封面
 
 ### 方式一：直接安装（推荐）
 
+把本项目网址直接丢给你的 OpenClaw 或 Hermes，让它自己安装：
+
+```text
+https://github.com/oodop37/hermes-av-metadata-packager
+```
+
+### 方式二：直接安装 SKILL.md
+
 ```bash
 hermes skills install https://raw.githubusercontent.com/oodop37/hermes-av-metadata-packager/main/SKILL.md
 ```
 
-### 方式二：添加为技能源
+### 方式三：添加为技能源
 
 ```bash
 hermes skills tap add https://github.com/oodop37/hermes-av-metadata-packager
 hermes skills install av-metadata-packager
 ```
 
-### 方式三：手动安装
+### 方式四：手动安装
 
 将 `SKILL.md` 复制到 `~/.hermes/skills/media/av-metadata-packager/SKILL.md` 即可。
 
