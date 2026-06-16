@@ -47,6 +47,8 @@ hermes skills install av-metadata-packager
 
 设置好后会记住你的选择，后续直接使用。
 
+> **⚠️ 重要：你的 OpenClaw 或 Hermes 必须要有操作这两个文件夹的读写权限，否则技能无法正常运行！**
+
 ## 工作流程
 
 1. 首次运行询问用户设置 `source_dir` 和 `dest_dir`
