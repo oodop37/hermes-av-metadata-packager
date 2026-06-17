@@ -46,7 +46,7 @@ hermes skills install av-metadata-packager
 
 > 整理AV元数据
 
-老婆就会自动执行完整流程。
+就会自动执行完整流程。
 
 ## 首次使用
 
